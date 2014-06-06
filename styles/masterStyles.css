@@ -1,14 +1,14 @@
  body{}
 
 nav ul ul{
-	border: 3px solid red;
+	border: 10px solid red;
   display: none;
   padding: 0;
-  position: absolute;
+  position: relative;
 }
 
 nav ul li:hover ul{
-	border: 3px solid blue;
+	border: 10px solid blue;
   display: block;
 }
 
@@ -26,7 +26,7 @@ nav ul li{
 
 nav ul ul li{
 	border: 3px solid green;
-  float: none;
+  float: right;
   padding:4px;
 }
 
@@ -65,7 +65,7 @@ nav ul{
       clear:both;
       padding-top:50px;
       color: grey;
-      position:absolute;
+      position:relative;
       top:60px;
       right:20px;
 }
